@@ -3,12 +3,24 @@ import Stripe from "stripe";
 import { createClient } from "@supabase/supabase-js";
 import { getPlan } from "../../lib/plans";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY ?? "");
+// Stripe a besoin du runtime Node (pas Edge).
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export async function POST(req: NextRequest) {
   try {
+    // Instanciation paresseuse : évite de planter au build si la clé manque.
+    const secretKey = process.env.STRIPE_SECRET_KEY;
+    if (!secretKey) {
+      return NextResponse.json(
+        { error: "Stripe non configuré (STRIPE_SECRET_KEY)." },
+        { status: 500 }
+      );
+    }
+    const stripe = new Stripe(secretKey);
+
     const { planId, accessToken } = await req.json();
 
     const plan = getPlan(planId);
