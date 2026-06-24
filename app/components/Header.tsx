@@ -49,12 +49,20 @@ export default function Header() {
           ))}
         </nav>
 
-        <a
-          href="#download"
-          className="hidden sm:inline-block bg-brand-blue text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-blue-800 transition-all shadow-lg shadow-blue-500/20"
-        >
-          Télécharger l&apos;app
-        </a>
+        <div className="hidden sm:flex items-center gap-3">
+          <Link
+            href="/abonnement"
+            className="inline-block border-2 border-brand-blue text-brand-blue px-5 py-2 rounded-full text-sm font-bold hover:bg-blue-50 transition-all"
+          >
+            S&apos;abonner
+          </Link>
+          <a
+            href="#download"
+            className="inline-block bg-brand-blue text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-blue-800 transition-all shadow-lg shadow-blue-500/20"
+          >
+            Télécharger l&apos;app
+          </a>
+        </div>
 
         <button
           type="button"
@@ -86,6 +94,13 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
+            <Link
+              href="/abonnement"
+              onClick={() => setOpen(false)}
+              className="mt-2 border-2 border-brand-blue text-brand-blue text-center px-5 py-3 rounded-full text-base font-bold hover:bg-blue-50 transition-all"
+            >
+              S&apos;abonner
+            </Link>
             <a
               href="#download"
               onClick={() => setOpen(false)}
