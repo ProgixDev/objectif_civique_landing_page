@@ -8,7 +8,7 @@ const NAV_LINKS = [
   { label: "Fonctionnalités", href: "#features" },
   { label: "Examen", href: "#journey" },
   { label: "Parcours", href: "#journey" },
-  { label: "À propos", href: "#" },
+  { label: "Tarifs", href: "#tarifs" },
   { label: "FAQ", href: "#faq" },
 ];
 

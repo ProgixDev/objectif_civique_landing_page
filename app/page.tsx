@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Journey from "./components/Journey";
 import Benefits from "./components/Benefits";
+import Pricing from "./components/Pricing";
 import Stats from "./components/Stats";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
@@ -17,6 +18,7 @@ export default function Home() {
         <Features />
         <Journey />
         <Benefits />
+        <Pricing />
         <Stats />
         <Testimonials />
         <FAQ />
