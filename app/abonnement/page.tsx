@@ -87,11 +87,12 @@ export default function AbonnementPage() {
     <main className="min-h-screen bg-gradient-to-b from-white to-blue-50 px-4 py-16">
       <div className="mx-auto max-w-5xl">
         <h1 className="text-center text-3xl font-bold text-[#0055A4]">
-          S&apos;abonner à Objectif Civique
+          Achetez votre accès
         </h1>
         <p className="mt-3 text-center text-gray-600">
-          Choisissez votre formule. Votre abonnement débloque automatiquement
-          l&apos;accès dans l&apos;application, avec le même compte.
+          <strong>Paiement unique, sans renouvellement.</strong> Choisissez la
+          durée qui vous convient — l&apos;accès se débloque automatiquement dans
+          l&apos;application, avec le même compte.
         </p>
 
         {!session ? (

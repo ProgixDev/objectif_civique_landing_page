@@ -12,7 +12,8 @@ export default function Pricing() {
           <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
             Toutes les formules donnent accès à <strong>l&apos;intégralité</strong>{" "}
             du contenu (questions, simulations, fiches…). La différence, c&apos;est
-            la durée. Abonnez-vous ici, et l&apos;accès se débloque automatiquement
+            la durée. <strong>Paiement unique, sans renouvellement</strong> :
+            vous payez une seule fois, et l&apos;accès se débloque automatiquement
             dans l&apos;application.
           </p>
         </div>
@@ -60,7 +61,8 @@ export default function Pricing() {
         </div>
 
         <p className="mt-8 text-center text-xs text-gray-400">
-          Paiement sécurisé par Stripe. Sans engagement, annulable à tout moment.
+          Paiement sécurisé par Stripe. ✓ 100 % paiement unique — aucun
+          renouvellement automatique.
         </p>
       </div>
     </section>
