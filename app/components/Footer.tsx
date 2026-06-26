@@ -23,10 +23,9 @@ const LINK_GROUPS = [
   {
     title: "Légal",
     links: [
-      { label: "Mentions légales", href: "#" },
-      { label: "Confidentialité", href: "#" },
-      { label: "CGU", href: "#" },
-      { label: "Cookies", href: "#" },
+      { label: "Mentions légales", href: "/mentions-legales" },
+      { label: "Confidentialité", href: "/confidentialite" },
+      { label: "Suppression de compte", href: "/suppression-compte" },
     ],
   },
 ];
@@ -92,6 +91,11 @@ export default function Footer() {
           ))}
         </div>
 
+        <p className="text-xs text-gray-500 mb-4 max-w-2xl">
+          Objectif Civique est une application indépendante de préparation à
+          l&apos;examen civique. Elle n&apos;est affiliée à aucune administration
+          ni organisme gouvernemental.
+        </p>
         <div className="border-t border-gray-100 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm font-semibold text-gray-700">
             © 2026 Objectif Civique. Tous droits réservés.
