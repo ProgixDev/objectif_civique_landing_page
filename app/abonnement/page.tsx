@@ -28,6 +28,12 @@ export default function AbonnementPage() {
     return () => sub.subscription.unsubscribe();
   }, []);
 
+  // Pré-remplit l'e-mail quand l'app ouvre cette page (lien d'achat externe).
+  useEffect(() => {
+    const prefill = new URLSearchParams(window.location.search).get("email");
+    if (prefill) setEmail(prefill);
+  }, []);
+
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault();
     setAuthError(null);
