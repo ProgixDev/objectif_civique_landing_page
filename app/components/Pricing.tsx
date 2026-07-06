@@ -54,7 +54,7 @@ export default function Pricing() {
                     : "border-2 border-brand-blue text-brand-blue hover:bg-blue-50"
                 }`}
               >
-                S&apos;abonner
+                Acheter
               </Link>
             </div>
           ))}

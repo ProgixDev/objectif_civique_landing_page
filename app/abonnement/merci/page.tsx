@@ -6,7 +6,7 @@ export default function MerciPage() {
           ✅
         </div>
         <h1 className="text-2xl font-bold text-[#0055A4]">
-          Merci pour votre abonnement !
+          Merci pour votre achat !
         </h1>
         <p className="mt-3 text-gray-600">
           Votre paiement est validé. Votre accès premium est désormais actif.

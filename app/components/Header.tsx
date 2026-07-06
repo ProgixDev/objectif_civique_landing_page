@@ -54,7 +54,7 @@ export default function Header() {
             href="/abonnement"
             className="inline-block border-2 border-brand-blue text-brand-blue px-5 py-2 rounded-full text-sm font-bold hover:bg-blue-50 transition-all"
           >
-            S&apos;abonner
+            Acheter
           </Link>
           <a
             href="#download"
@@ -99,7 +99,7 @@ export default function Header() {
               onClick={() => setOpen(false)}
               className="mt-2 border-2 border-brand-blue text-brand-blue text-center px-5 py-3 rounded-full text-base font-bold hover:bg-blue-50 transition-all"
             >
-              S&apos;abonner
+              Acheter
             </Link>
             <a
               href="#download"
