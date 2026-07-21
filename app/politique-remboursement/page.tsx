@@ -56,7 +56,7 @@ export default function PolitiqueRemboursement() {
 
         <h2 className="mt-8 text-xl font-bold text-gray-900">Contact</h2>
         <p className="mt-3">
-          Pour toute demande : <strong>contact@objectif-civique.fr</strong>. Voir
+          Pour toute demande : <strong>service.horizon224@gmail.com</strong>. Voir
           aussi les{" "}
           <a href="/conditions-generales" className="text-[#0055A4] underline">
             conditions générales

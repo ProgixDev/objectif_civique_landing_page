@@ -18,7 +18,7 @@ export default function MentionsLegales() {
           <br />
           Adresse : <em>[adresse à compléter]</em>
           <br />
-          Contact : contact@objectif-civique.fr
+          Contact : service.horizon224@gmail.com
           <br />
           <em>[SIRET / forme juridique à compléter le cas échéant]</em>
         </p>

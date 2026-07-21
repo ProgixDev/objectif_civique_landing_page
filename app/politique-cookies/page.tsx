@@ -59,7 +59,7 @@ export default function PolitiqueCookies() {
           <a href="/confidentialite" className="text-[#0055A4] underline">
             politique de confidentialité
           </a>
-          . Contact : <strong>contact@objectif-civique.fr</strong>.
+          . Contact : <strong>service.horizon224@gmail.com</strong>.
         </p>
       </article>
     </main>

@@ -91,7 +91,7 @@ export default function Confidentialite() {
 
         <h2 className="mt-8 text-xl font-bold text-gray-900">6. Contact</h2>
         <p className="mt-3">
-          Pour toute question : <strong>contact@objectif-civique.fr</strong>
+          Pour toute question : <strong>service.horizon224@gmail.com</strong>
         </p>
 
         <p className="mt-10 text-xs text-gray-400">

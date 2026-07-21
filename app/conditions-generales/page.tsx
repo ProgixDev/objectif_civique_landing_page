@@ -104,7 +104,7 @@ export default function ConditionsGenerales() {
           <a href="/mentions-legales" className="text-[#0055A4] underline">
             mentions légales
           </a>
-          . Contact : <strong>contact@objectif-civique.fr</strong>.
+          . Contact : <strong>service.horizon224@gmail.com</strong>.
         </p>
       </article>
     </main>
