@@ -35,7 +35,7 @@ export default function Hero() {
             <br />
             votre{" "}
             <span className="relative inline-block">
-              <span className="relative z-10">intégration</span>
+              <span className="relative z-10">entretien de naturalisation</span>
               <span className="absolute left-0 right-0 bottom-1 h-3 bg-brand-red/40 rounded-full -skew-x-3" />
             </span>
             .
