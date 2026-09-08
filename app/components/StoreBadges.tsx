@@ -12,7 +12,9 @@ const SIZES = {
 function AppStoreBadge({ className = "" }: { className?: string }) {
   return (
     <a
-      href="#"
+      href="https://apps.apple.com/fr/app/objectif-civique/id6793272755"
+      target="_blank"
+      rel="noopener noreferrer"
       aria-label="Télécharger sur l'App Store"
       className={`inline-flex items-center gap-2.5 bg-black text-white rounded-xl px-4 py-2 hover:bg-zinc-800 transition-all hover:-translate-y-0.5 hover:shadow-xl ${className}`}
     >
@@ -32,7 +34,9 @@ function AppStoreBadge({ className = "" }: { className?: string }) {
 function GooglePlayBadge({ className = "" }: { className?: string }) {
   return (
     <a
-      href="#"
+      href="https://play.google.com/store/apps/details?id=com.horizon224.objectifcivique&hl=fr"
+      target="_blank"
+      rel="noopener noreferrer"
       aria-label="Disponible sur Google Play"
       className={`inline-flex items-center gap-2.5 bg-black text-white rounded-xl px-4 py-2 hover:bg-zinc-800 transition-all hover:-translate-y-0.5 hover:shadow-xl ${className}`}
     >
