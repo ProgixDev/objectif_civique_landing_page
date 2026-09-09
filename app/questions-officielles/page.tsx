@@ -382,6 +382,13 @@ export default function QuestionsOfficiellesPage() {
               parcours (carte de séjour, carte de résident, naturalisation), avec simulations
               chronométrées et suivi de progression.
             </p>
+            <p className="mt-2 text-sm font-semibold text-gray-500">
+              Vous préparez votre dossier ?{" "}
+              <Link href="/examen-civique" className="text-brand-blue underline font-bold">
+                Consultez le guide complet de l&apos;examen civique 2026
+              </Link>
+              .
+            </p>
           </div>
         </section>
 

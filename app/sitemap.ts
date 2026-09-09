@@ -6,6 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     "",
     "/abonnement",
+    "/examen-civique",
     "/questions-officielles",
     "/conditions-generales",
     "/confidentialite",

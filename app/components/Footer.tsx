@@ -7,6 +7,7 @@ const LINK_GROUPS = [
     links: [
       { label: "Fonctionnalités", href: "#features" },
       { label: "Parcours", href: "#journey" },
+      { label: "Examen civique", href: "/examen-civique" },
       { label: "Questions officielles", href: "/questions-officielles" },
       { label: "FAQ", href: "#faq" },
     ],

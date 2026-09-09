@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const NAV_LINKS = [
   { label: "Fonctionnalités", href: "#features" },
-  { label: "Examen", href: "#journey" },
+  { label: "Examen civique", href: "/examen-civique" },
   { label: "Parcours", href: "#journey" },
   { label: "Tarifs", href: "#tarifs" },
   { label: "FAQ", href: "#faq" },
