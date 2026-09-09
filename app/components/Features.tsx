@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 type Feature = {
   title: string;
@@ -58,6 +59,14 @@ export default function Features() {
             </div>
           ))}
         </div>
+        <p className="text-center mt-6">
+          <Link
+            href="/questions-officielles"
+            className="text-brand-blue font-bold hover:underline"
+          >
+            Voir des exemples de questions officielles corrigées →
+          </Link>
+        </p>
       </div>
     </section>
   );

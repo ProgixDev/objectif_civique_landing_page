@@ -6,6 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     "",
     "/abonnement",
+    "/questions-officielles",
     "/conditions-generales",
     "/confidentialite",
     "/mentions-legales",

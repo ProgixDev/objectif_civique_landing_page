@@ -7,7 +7,7 @@ const LINK_GROUPS = [
     links: [
       { label: "Fonctionnalités", href: "#features" },
       { label: "Parcours", href: "#journey" },
-      { label: "Témoignages", href: "#" },
+      { label: "Questions officielles", href: "/questions-officielles" },
       { label: "FAQ", href: "#faq" },
     ],
   },
