@@ -56,12 +56,12 @@ export default function Header() {
           >
             Acheter
           </Link>
-          <a
-            href="#download"
+          <Link
+            href="/questions-officielles"
             className="inline-block bg-brand-blue text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-blue-800 transition-all shadow-lg shadow-blue-500/20"
           >
-            Télécharger l&apos;app
-          </a>
+            Questions officielles
+          </Link>
         </div>
 
         <button
@@ -101,13 +101,13 @@ export default function Header() {
             >
               Acheter
             </Link>
-            <a
-              href="#download"
+            <Link
+              href="/questions-officielles"
               onClick={() => setOpen(false)}
               className="mt-2 bg-brand-blue text-white text-center px-5 py-3 rounded-full text-base font-bold hover:bg-blue-800 transition-all shadow-lg shadow-blue-500/20"
             >
-              Télécharger l&apos;app
-            </a>
+              Questions officielles
+            </Link>
           </nav>
         </div>
       )}
