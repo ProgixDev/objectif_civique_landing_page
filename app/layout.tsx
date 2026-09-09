@@ -64,9 +64,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
     },
   },
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 const organizationJsonLd = {
