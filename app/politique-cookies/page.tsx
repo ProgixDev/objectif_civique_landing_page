@@ -59,7 +59,7 @@ export default function PolitiqueCookies() {
           <a href="/confidentialite" className="text-[#0055A4] underline">
             politique de confidentialité
           </a>
-          . Contact : <strong>support@demarchesciviques.fr</strong>.
+          . Contact : <strong>Contact@objectifcivique.fr</strong>.
         </p>
       </article>
     </main>

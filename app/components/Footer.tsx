@@ -16,7 +16,7 @@ const LINK_GROUPS = [
     links: [
       { label: "À propos", href: "#" },
       { label: "WhatsApp", href: "https://wa.me/33751252309" },
-      { label: "Contact", href: "mailto:support@demarchesciviques.fr" },
+      { label: "Contact", href: "mailto:Contact@objectifcivique.fr" },
     ],
   },
   {

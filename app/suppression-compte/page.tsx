@@ -37,7 +37,7 @@ export default function SuppressionCompte() {
         </h2>
         <p className="mt-3">
           Envoyez une demande à{" "}
-          <strong>support@demarchesciviques.fr</strong> depuis l&apos;adresse
+          <strong>Contact@objectifcivique.fr</strong> depuis l&apos;adresse
           e-mail de votre compte, avec l&apos;objet « Suppression de compte ».
           Nous traitons la demande sous 30 jours.
         </p>
