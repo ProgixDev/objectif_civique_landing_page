@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const HQ = "=w800-h1690-rw";
 
@@ -72,6 +73,14 @@ export default function Journey() {
               <p className="text-base font-semibold text-gray-800">{step.desc}</p>
             </div>
           ))}
+        </div>
+        <div className="text-center mt-12">
+          <Link
+            href="/examen-civique"
+            className="inline-block bg-brand-blue text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-blue-800 transition-all shadow-lg shadow-blue-500/20"
+          >
+            Découvrir le guide complet de l&apos;examen civique
+          </Link>
         </div>
       </div>
     </section>
