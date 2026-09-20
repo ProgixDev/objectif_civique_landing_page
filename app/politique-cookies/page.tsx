@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Politique de cookies — Démarches Civiques",
+  title: "Politique de cookies",
 };
 
 export default function PolitiqueCookies() {

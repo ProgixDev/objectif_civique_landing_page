@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Politique de remboursement — Démarches Civiques",
+  title: "Politique de remboursement",
 };
 
 export default function PolitiqueRemboursement() {

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Suppression de compte — Démarches Civiques",
+  title: "Suppression de compte",
 };
 
 export default function SuppressionCompte() {

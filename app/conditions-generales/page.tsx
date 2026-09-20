@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Conditions Générales — Démarches Civiques",
+  title: "Conditions Générales",
 };
 
 export default function ConditionsGenerales() {

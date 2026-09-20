@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Mentions légales — Démarches Civiques",
+  title: "Mentions légales",
 };
 
 export default function MentionsLegales() {

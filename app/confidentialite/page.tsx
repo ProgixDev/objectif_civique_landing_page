@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Politique de confidentialité — Démarches Civiques",
+  title: "Politique de confidentialité",
 };
 
 export default function Confidentialite() {
