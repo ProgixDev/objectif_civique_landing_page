@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Conditions Générales — Objectif Civique",
+  title: "Conditions Générales — Démarches Civiques",
 };
 
 export default function ConditionsGenerales() {
@@ -16,7 +16,7 @@ export default function ConditionsGenerales() {
         <h2 className="mt-8 text-xl font-bold text-gray-900">1. Objet</h2>
         <p className="mt-3">
           Les présentes conditions régissent l&apos;utilisation de
-          l&apos;application et du site <strong>Objectif Civique</strong>, service
+          l&apos;application et du site <strong>Démarches Civiques</strong>, service
           d&apos;entraînement à l&apos;examen civique français (questions
           d&apos;entraînement, examens blancs, fiches de révision et préparation à
           l&apos;entretien de naturalisation). En utilisant le service, vous
@@ -25,7 +25,7 @@ export default function ConditionsGenerales() {
 
         <h2 className="mt-8 text-xl font-bold text-gray-900">2. Le service</h2>
         <p className="mt-3">
-          Objectif Civique est un outil <strong>pédagogique et indépendant</strong>.
+          Démarches Civiques est un outil <strong>pédagogique et indépendant</strong>.
           Il n&apos;est affilié à aucune administration ni organisme
           gouvernemental et ne délivre aucun titre, diplôme ou certification. Les
           contenus ne remplacent pas les sources officielles.
@@ -90,7 +90,7 @@ export default function ConditionsGenerales() {
           7. Responsabilité
         </h2>
         <p className="mt-3">
-          Objectif Civique met en œuvre des moyens raisonnables pour proposer un
+          Démarches Civiques met en œuvre des moyens raisonnables pour proposer un
           contenu fiable et à jour, sans garantie de résultat à l&apos;examen. Le
           service est fourni « en l&apos;état » et peut évoluer.
         </p>

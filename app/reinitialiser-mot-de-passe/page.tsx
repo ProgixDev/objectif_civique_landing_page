@@ -74,7 +74,7 @@ export default function ReinitialiserMotDePassePage() {
                 Ce lien de réinitialisation est invalide ou a expiré.
               </p>
               <p className="mt-3 text-sm text-gray-500">
-                Retourne dans l&apos;application Objectif Civique et refais une
+                Retourne dans l&apos;application Démarches Civiques et refais une
                 demande de mot de passe oublié.
               </p>
             </div>
@@ -86,7 +86,7 @@ export default function ReinitialiserMotDePassePage() {
                 Mot de passe mis à jour !
               </p>
               <p className="mt-3 text-sm text-gray-500">
-                Tu peux retourner dans l&apos;application Objectif Civique et te
+                Tu peux retourner dans l&apos;application Démarches Civiques et te
                 connecter avec ton nouveau mot de passe.
               </p>
             </div>

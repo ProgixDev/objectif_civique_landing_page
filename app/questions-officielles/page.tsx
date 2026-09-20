@@ -378,7 +378,7 @@ export default function QuestionsOfficiellesPage() {
               détaillée, classées par thème du référentiel officiel.
             </p>
             <p className="mt-4 text-sm font-semibold text-gray-500">
-              L&apos;application Objectif Civique propose plus de 600 questions officielles par
+              L&apos;application Démarches Civiques propose plus de 600 questions officielles par
               parcours (carte de séjour, carte de résident, naturalisation), avec simulations
               chronométrées et suivi de progression.
             </p>
@@ -443,7 +443,7 @@ export default function QuestionsOfficiellesPage() {
               Envie de vous entraîner sur toutes les questions officielles ?
             </h2>
             <p className="text-base font-semibold text-gray-700 mb-7 max-w-xl mx-auto">
-              Objectif Civique propose des centaines de questions officielles supplémentaires,
+              Démarches Civiques propose des centaines de questions officielles supplémentaires,
               des simulations d&apos;examen chronométrées et un suivi personnalisé de votre
               progression.
             </p>

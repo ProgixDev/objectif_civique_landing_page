@@ -1,7 +1,7 @@
 const QUESTIONS = [
   {
     q: "L'application est-elle vraiment gratuite ?",
-    a: "Oui, vous pouvez utiliser Objectif Civique gratuitement pour vous entraîner sur des centaines de questions officielles. Une option premium est disponible pour accéder à toutes les simulations et au suivi avancé.",
+    a: "Oui, vous pouvez utiliser Démarches Civiques gratuitement pour vous entraîner sur des centaines de questions officielles. Une option premium est disponible pour accéder à toutes les simulations et au suivi avancé.",
   },
   {
     q: "Les questions sont-elles à jour avec le programme officiel ?",
@@ -9,7 +9,7 @@ const QUESTIONS = [
   },
   {
     q: "Sur quels supports l'application est-elle disponible ?",
-    a: "Objectif Civique est disponible sur iOS et Android. Vous pouvez télécharger l'application depuis l'App Store ou Google Play.",
+    a: "Démarches Civiques est disponible sur iOS et Android. Vous pouvez télécharger l'application depuis l'App Store ou Google Play.",
   },
   {
     q: "Combien de temps faut-il pour se préparer à l'examen ?",

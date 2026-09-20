@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Politique de remboursement — Objectif Civique",
+  title: "Politique de remboursement — Démarches Civiques",
 };
 
 export default function PolitiqueRemboursement() {
@@ -15,7 +15,7 @@ export default function PolitiqueRemboursement() {
 
         <h2 className="mt-8 text-xl font-bold text-gray-900">Principe</h2>
         <p className="mt-3">
-          Les accès à Objectif Civique sont des <strong>contenus numériques
+          Les accès à Démarches Civiques sont des <strong>contenus numériques
           fournis immédiatement</strong>. En activant votre accès, vous acceptez
           que la prestation démarre aussitôt et renoncez à votre droit de
           rétractation pour la partie déjà exécutée, conformément à la

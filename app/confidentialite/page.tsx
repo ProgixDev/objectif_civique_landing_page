@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Politique de confidentialité — Objectif Civique",
+  title: "Politique de confidentialité — Démarches Civiques",
 };
 
 export default function Confidentialite() {
@@ -15,7 +15,7 @@ export default function Confidentialite() {
 
         <p className="mt-6">
           La présente politique décrit comment l&apos;application et le site{" "}
-          <strong>Objectif Civique</strong> (« nous ») collectent et utilisent
+          <strong>Démarches Civiques</strong> (« nous ») collectent et utilisent
           vos données personnelles, conformément au RGPD.
         </p>
 
@@ -95,7 +95,7 @@ export default function Confidentialite() {
         </p>
 
         <p className="mt-10 text-xs text-gray-400">
-          Objectif Civique est une application <strong>indépendante</strong> de
+          Démarches Civiques est une application <strong>indépendante</strong> de
           préparation à l&apos;examen civique. Elle n&apos;est affiliée à aucune
           administration ni organisme gouvernemental.
         </p>

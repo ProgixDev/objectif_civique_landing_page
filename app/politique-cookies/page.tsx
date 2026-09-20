@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Politique de cookies — Objectif Civique",
+  title: "Politique de cookies — Démarches Civiques",
 };
 
 export default function PolitiqueCookies() {
@@ -37,7 +37,7 @@ export default function PolitiqueCookies() {
           </li>
         </ul>
         <p className="mt-3">
-          L&apos;<strong>application mobile</strong> Objectif Civique
+          L&apos;<strong>application mobile</strong> Démarches Civiques
           n&apos;utilise pas de cookies publicitaires. Les données de session sont
           conservées localement sur votre appareil pour vous garder connecté et
           enregistrer votre progression.

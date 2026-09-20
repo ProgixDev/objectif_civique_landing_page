@@ -51,7 +51,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <Image
                 src="/logo.png"
-                alt="Objectif Civique"
+                alt="Démarches Civiques"
                 width={48}
                 height={48}
                 className="h-12 w-auto"
@@ -92,13 +92,13 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-gray-500 mb-4 max-w-2xl">
-          Objectif Civique est une application indépendante de préparation à
+          Démarches Civiques est une application indépendante de préparation à
           l&apos;examen civique. Elle n&apos;est affiliée à aucune administration
           ni organisme gouvernemental.
         </p>
         <div className="border-t border-gray-100 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm font-semibold text-gray-700">
-            © 2026 Objectif Civique. Tous droits réservés.
+            © 2026 Démarches Civiques. Tous droits réservés.
           </p>
           <div className="flex items-center gap-2">
             <a

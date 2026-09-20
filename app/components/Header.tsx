@@ -21,7 +21,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <Image
             src="/logo.png"
-            alt="Objectif Civique Logo"
+            alt="Démarches Civiques Logo"
             width={64}
             height={64}
             className="h-12 sm:h-14 w-auto"

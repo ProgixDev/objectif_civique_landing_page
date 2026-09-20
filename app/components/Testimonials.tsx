@@ -12,7 +12,7 @@ const TESTIMONIALS: Testimonial[] = [
     avatar:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCmCL_muw1FEl44b8ILkHCm-NJ-skFKmzGW8CKhsKdKSZ3yyqT3q2EIe9_FuS_y8dtutKoXPvF3-03IvCa60DbkAwhG_42R5_00QYHk6XJrODh7s0Ij3GszJoXog2b0TR1eD6Fith2NINZO7hPizSXhQ1nU775_hqQSF1FcUGVBntjsLjJkcp89ozXI24Jeoxl4ZsEUI36zr2K_LKZXboMYhax_dhg-22m-JuZe3CzHJ3Je4G-VFaCEAW35jhElEuc9gG8tUDSQJN9R",
     quote:
-      "Grâce à Objectif Civique, j'ai obtenu ma naturalisation du premier coup. Les simulations sont vraiment fidèles à l'examen.",
+      "Grâce à Démarches Civiques, j'ai obtenu ma naturalisation du premier coup. Les simulations sont vraiment fidèles à l'examen.",
   },
   {
     name: "Sofia L.",
@@ -50,7 +50,7 @@ export default function Testimonials() {
             Témoignages
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-3 text-gray-900">
-            Ils ont réussi avec <span className="text-brand-blue">Objectif Civique</span>
+            Ils ont réussi avec <span className="text-brand-blue">Démarches Civiques</span>
           </h2>
           <p className="text-gray-900 text-lg font-bold">
             Des milliers de candidats nous ont fait confiance pour leur examen.

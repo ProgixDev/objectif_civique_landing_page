@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Suppression de compte — Objectif Civique",
+  title: "Suppression de compte — Démarches Civiques",
 };
 
 export default function SuppressionCompte() {
@@ -9,10 +9,10 @@ export default function SuppressionCompte() {
         <h1 className="text-3xl font-extrabold text-[#0055A4]">
           Suppression de compte
         </h1>
-        <p className="mt-2 text-sm text-gray-500">Objectif Civique</p>
+        <p className="mt-2 text-sm text-gray-500">Démarches Civiques</p>
 
         <p className="mt-6">
-          Vous pouvez supprimer votre compte <strong>Objectif Civique</strong> et
+          Vous pouvez supprimer votre compte <strong>Démarches Civiques</strong> et
           l&apos;ensemble de vos données à tout moment.
         </p>
 

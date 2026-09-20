@@ -34,7 +34,7 @@ export default function Benefits() {
           <div className="relative w-full max-w-[520px] aspect-[4/5] sm:aspect-[5/6] rounded-[32px] overflow-hidden shadow-2xl border-[6px] border-white">
             <Image
               src={PHONE_IMG}
-              alt="Pourquoi choisir Objectif Civique"
+              alt="Pourquoi choisir Démarches Civiques"
               fill
               sizes="(max-width: 1024px) 90vw, 520px"
               quality={95}

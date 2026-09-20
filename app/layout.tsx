@@ -9,16 +9,16 @@ const jakarta = Plus_Jakarta_Sans({
   weight: ["400", "500", "600", "700", "800"],
 });
 
-const SITE_URL = "https://www.objectifcivique.fr";
-const TITLE = "Objectif Civique - Réussissez votre examen civique";
+const SITE_URL = "https://www.demarches-civiques.fr";
+const TITLE = "Démarches Civiques - Réussissez votre examen civique";
 const DESCRIPTION =
-  "Préparez votre avenir en France avec Objectif Civique. Des milliers de questions officielles, des simulations intelligentes et un suivi personnalisé pour réussir votre examen civique.";
+  "Préparez votre avenir en France avec Démarches Civiques. Des milliers de questions officielles, des simulations intelligentes et un suivi personnalisé pour réussir votre examen civique.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: TITLE,
-    template: "%s | Objectif Civique",
+    template: "%s | Démarches Civiques",
   },
   description: DESCRIPTION,
   keywords: [
@@ -27,9 +27,12 @@ export const metadata: Metadata = {
     "naturalisation française",
     "préparation examen civique",
     "questions officielles examen civique",
+    "démarches civiques",
+    // Ancien nom : ceux qui cherchent encore « Objectif Civique » doivent
+    // continuer à trouver le site.
     "objectif civique",
   ],
-  authors: [{ name: "Objectif Civique" }],
+  authors: [{ name: "Démarches Civiques" }],
   alternates: {
     canonical: "/",
   },
@@ -37,7 +40,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
     url: SITE_URL,
-    siteName: "Objectif Civique",
+    siteName: "Démarches Civiques",
     title: TITLE,
     description: DESCRIPTION,
     images: [
@@ -45,7 +48,7 @@ export const metadata: Metadata = {
         url: "/hero.png",
         width: 1200,
         height: 630,
-        alt: "Objectif Civique - Application de préparation à l'examen civique",
+        alt: "Démarches Civiques - Application de préparation à l'examen civique",
       },
     ],
   },
@@ -69,7 +72,7 @@ export const metadata: Metadata = {
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Objectif Civique",
+  name: "Démarches Civiques",
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
   email: "Contact@objectifcivique.fr",

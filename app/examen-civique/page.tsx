@@ -90,7 +90,7 @@ export default function ExamenCiviquePage() {
             <p className="text-lg font-semibold text-gray-800 leading-relaxed">
               Format de l&apos;examen, parcours CSP / CR / Naturalisation, dispenses et sources
               officielles : tout ce qu&apos;il faut savoir avant de préparer votre examen civique
-              avec Objectif Civique.
+              avec Démarches Civiques.
             </p>
           </div>
         </section>
@@ -172,7 +172,7 @@ export default function ExamenCiviquePage() {
             <p className="text-base font-semibold text-gray-700 leading-relaxed mb-4">
               Les questions de l&apos;examen civique sont issues du{" "}
               <strong>livret du citoyen</strong> et des listes officielles publiées par le
-              ministère de l&apos;Intérieur. Objectif Civique met à jour son contenu chaque année
+              ministère de l&apos;Intérieur. Démarches Civiques met à jour son contenu chaque année
               selon les évolutions de la législation. Vous pouvez consulter{" "}
               <span className="inline-flex flex-col sm:inline">
                 <Link
@@ -253,7 +253,7 @@ export default function ExamenCiviquePage() {
               Prêt(e) à préparer votre examen civique ?
             </h2>
             <p className="text-base font-semibold text-gray-700 mb-7 max-w-xl mx-auto">
-              Objectif Civique vous propose des centaines de questions officielles, des
+              Démarches Civiques vous propose des centaines de questions officielles, des
               simulations chronométrées dans les conditions réelles et un suivi personnalisé.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">

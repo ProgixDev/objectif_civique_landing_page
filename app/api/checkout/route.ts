@@ -77,7 +77,7 @@ export async function POST(req: NextRequest) {
             price_data: {
               currency: "eur",
               unit_amount: plan.amountCents,
-              product_data: { name: `Objectif Civique — ${plan.title}` },
+              product_data: { name: `Démarches Civiques — ${plan.title}` },
             },
           },
         ],

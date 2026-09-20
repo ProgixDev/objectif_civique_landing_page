@@ -12,7 +12,7 @@ export default function MerciPage() {
           Votre paiement est validé. Votre accès premium est désormais actif.
           <br />
           <br />
-          Ouvrez l&apos;application <strong>Objectif Civique</strong> et
+          Ouvrez l&apos;application <strong>Démarches Civiques</strong> et
           connectez-vous avec le même compte : tout le contenu est débloqué
           automatiquement. 🎉
         </p>

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Mentions légales — Objectif Civique",
+  title: "Mentions légales — Démarches Civiques",
 };
 
 export default function MentionsLegales() {
@@ -12,7 +12,7 @@ export default function MentionsLegales() {
 
         <h2 className="mt-8 text-xl font-bold text-gray-900">Éditeur</h2>
         <p className="mt-3">
-          Application et site <strong>Objectif Civique</strong>.
+          Application et site <strong>Démarches Civiques</strong>.
           <br />
           Éditeur : <em>[Nom / raison sociale à compléter]</em>
           <br />
@@ -33,7 +33,7 @@ export default function MentionsLegales() {
           Propriété & indépendance
         </h2>
         <p className="mt-3">
-          Objectif Civique est une application <strong>indépendante</strong> de
+          Démarches Civiques est une application <strong>indépendante</strong> de
           préparation à l&apos;examen civique. Elle <strong>n&apos;est affiliée à
           aucune administration</strong> ni organisme gouvernemental. Les
           informations fournies sont à but pédagogique et ne remplacent pas les

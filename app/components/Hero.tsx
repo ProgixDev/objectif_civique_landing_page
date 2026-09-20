@@ -42,7 +42,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg font-bold text-gray-900 mb-8 max-w-md mx-auto lg:mx-0 leading-relaxed">
-            Préparez votre avenir en France avec Objectif Civique. Des milliers
+            Préparez votre avenir en France avec Démarches Civiques. Des milliers
             de questions officielles, des simulations intelligentes et un suivi
             personnalisé.
           </p>
@@ -82,7 +82,7 @@ export default function Hero() {
           <div className="relative w-full max-w-[360px] sm:max-w-[400px] animate-float-slow">
             <Image
               src="/hero2.png"
-              alt="Objectif Civique — application mobile"
+              alt="Démarches Civiques — application mobile"
               width={800}
               height={800}
               priority
