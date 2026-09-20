@@ -21,20 +21,21 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <Image
             src="/logo.png"
-            alt="Démarches Civiques Logo"
+            alt=""
             width={64}
             height={64}
             className="h-12 sm:h-14 w-auto"
             priority
           />
-          <div className="flex flex-col">
-            <span className="text-lg sm:text-xl font-extrabold tracking-tight leading-none text-brand-blue">
-              Objectif
-            </span>
-            <span className="text-lg sm:text-xl font-extrabold tracking-tight leading-none">
-              Civique
-            </span>
-          </div>
+          {/* Le nom est une image : le logo typographique de la marque. */}
+          <Image
+            src="/wordmark.png"
+            alt="Démarches Civiques"
+            width={1648}
+            height={954}
+            className="h-12 sm:h-14 w-auto"
+            priority
+          />
         </Link>
 
         <nav className="hidden md:flex items-center gap-7 text-base font-bold text-gray-900">

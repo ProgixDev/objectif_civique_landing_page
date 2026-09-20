@@ -51,19 +51,18 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <Image
                 src="/logo.png"
-                alt="Démarches Civiques"
+                alt=""
                 width={48}
                 height={48}
                 className="h-12 w-auto"
               />
-              <div className="flex flex-col">
-                <span className="text-lg font-extrabold tracking-tight leading-none text-brand-blue">
-                  Objectif
-                </span>
-                <span className="text-lg font-extrabold tracking-tight leading-none">
-                  Civique
-                </span>
-              </div>
+              <Image
+                src="/wordmark.png"
+                alt="Démarches Civiques"
+                width={1648}
+                height={954}
+                className="h-12 w-auto"
+              />
             </div>
             <p className="text-base font-semibold text-gray-800 leading-relaxed max-w-xs mb-5">
               L&apos;application n°1 pour réussir votre examen civique et

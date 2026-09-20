@@ -59,8 +59,8 @@ export default function ConditionsGenerales() {
           les plateformes <strong>Google Play</strong> ou <strong>Apple App
           Store</strong>, qui agissent en tant qu&apos;intermédiaires de paiement.
           Les achats effectués sur le web sont traités par notre prestataire de
-          paiement sécurisé. Aucune donnée bancaire n&apos;est stockée par Objectif
-          Civique.
+          paiement sécurisé. Aucune donnée bancaire n&apos;est stockée par Démarches
+          Civiques.
         </p>
 
         <h2 className="mt-8 text-xl font-bold text-gray-900">
