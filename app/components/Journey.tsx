@@ -32,9 +32,7 @@ const STEPS = [
     n: "04",
     title: "Simulez l'examen réel",
     desc: "En conditions réelles pour être prêt le jour J.",
-    img:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBhixPNMvRf-PBBB_uhclWcqaietQs0xC4XmUbOoKrl3UwhJqnznXgpEr47M0V-SjbLQWOKlrH8ExfbxwYtEAtFCSVCsVTzRCgeR_RLbYdQbV3H1eIijo2kLKLtd_wr7iAW63a1dnEOZub0vLo1CdqDobRN26dmP2WLsuZHem-d__Ax5MpMnn9WRnWMRChLVwiKV2JuhB7fu21L9SWKVfzxNMHI8eZTrDgyUAkM0ExanyWWwqf211xCvzNT-zQWKETV3gAR5OsRddMo" +
-      HQ,
+    img: "/journey-simulation.webp",
   },
 ];
 

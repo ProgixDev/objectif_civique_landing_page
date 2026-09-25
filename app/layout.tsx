@@ -10,9 +10,10 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 const SITE_URL = "https://www.demarches-civiques.fr";
-const TITLE = "Démarches Civiques - Réussissez votre examen civique";
+const SITE_NAME = "Démarches Civiques";
+const TITLE = "Démarches Civiques | Application pour réussir l'examen civique";
 const DESCRIPTION =
-  "Préparez votre avenir en France avec Démarches Civiques. Des milliers de questions officielles, des simulations intelligentes et un suivi personnalisé pour réussir votre examen civique.";
+  "Démarches Civiques (demarches-civiques) : l'application pour réussir votre examen civique. Des milliers de questions officielles, des simulations intelligentes et un suivi personnalisé pour la naturalisation, la carte de séjour et la carte de résident.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -21,13 +22,22 @@ export const metadata: Metadata = {
     template: "%s | Démarches Civiques",
   },
   description: DESCRIPTION,
+  applicationName: SITE_NAME,
   keywords: [
+    // Nom de la marque et ses variantes de saisie (tiret, sans « s », sans accent).
+    "démarches civiques",
+    "demarches civiques",
+    "démarches civique",
+    "demarches civique",
+    "demarches-civiques",
+    "demarches-civique",
+    "demarches-civiques.fr",
+    "application démarches civiques",
     "examen civique",
     "test civique France",
     "naturalisation française",
     "préparation examen civique",
     "questions officielles examen civique",
-    "démarches civiques",
     // Ancien nom : ceux qui cherchent encore « Objectif Civique » doivent
     // continuer à trouver le site.
     "objectif civique",
@@ -69,13 +79,32 @@ export const metadata: Metadata = {
   },
 };
 
+const BRAND_ALIASES = [
+  "Demarches Civiques",
+  "Démarches Civique",
+  "Demarches Civique",
+  "demarches-civiques",
+  "demarches-civique",
+  "demarches-civiques.fr",
+];
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  alternateName: BRAND_ALIASES,
+  url: SITE_URL,
+  inLanguage: "fr-FR",
+};
+
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Démarches Civiques",
+  name: SITE_NAME,
+  alternateName: BRAND_ALIASES,
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
-  email: "Contact@objectifcivique.fr",
+  email: "demarchesciviques@gmail.com",
   description: DESCRIPTION,
 };
 
@@ -90,6 +119,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         <AppBackground />
         {children}
