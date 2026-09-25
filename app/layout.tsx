@@ -104,7 +104,7 @@ const organizationJsonLd = {
   alternateName: BRAND_ALIASES,
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
-  email: "demarchesciviques@gmail.com",
+  email: "support@demarchesciviques.fr",
   description: DESCRIPTION,
 };
 
