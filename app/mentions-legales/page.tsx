@@ -14,18 +14,25 @@ export default function MentionsLegales() {
         <p className="mt-3">
           Application et site <strong>Démarches Civiques</strong>.
           <br />
-          Éditeur : <em>[Nom / raison sociale à compléter]</em>
+          Éditeur : <strong>DEMARCHES CIVIQUES</strong>, société par actions
+          simplifiée à associé unique, au capital de 500 €
           <br />
-          Adresse : <em>[adresse à compléter]</em>
+          Siège social : 138 avenue Victor Hugo, 75016 Paris
+          <br />
+          Immatriculation : RCS de Paris, SIREN 106 855 398 (SIRET
+          106 855 398 00017)
+          <br />
+          TVA intracommunautaire : FR24 106 855 398
+          <br />
+          Président et directeur de la publication : Ibrahima Barry
           <br />
           Contact : support@demarchesciviques.fr
-          <br />
-          <em>[SIRET / forme juridique à compléter le cas échéant]</em>
         </p>
 
         <h2 className="mt-8 text-xl font-bold text-gray-900">Hébergement</h2>
         <p className="mt-3">
-          Site hébergé par <strong>Vercel Inc.</strong> Données applicatives
+          Site hébergé par <strong>Vercel Inc.</strong>, 440 N Barranca Ave
+          #4133, Covina, CA 91723, États-Unis (vercel.com). Données applicatives
           hébergées par <strong>Supabase</strong> (Union européenne).
         </p>
 
