@@ -10,7 +10,7 @@ export default function PolitiqueCookies() {
           Politique de cookies
         </h1>
         <p className="mt-3 text-sm text-gray-500">
-          Dernière mise à jour : à compléter — <em>document à faire valider</em>.
+          Dernière mise à jour : septembre 2026
         </p>
 
         <h2 className="mt-8 text-xl font-bold text-gray-900">

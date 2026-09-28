@@ -97,6 +97,22 @@ const websiteJsonLd = {
   inLanguage: "fr-FR",
 };
 
+const applicationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  name: SITE_NAME,
+  alternateName: BRAND_ALIASES,
+  url: SITE_URL,
+  applicationCategory: "EducationalApplication",
+  operatingSystem: "iOS, Android",
+  inLanguage: "fr-FR",
+  description: DESCRIPTION,
+  downloadUrl: [
+    "https://apps.apple.com/fr/app/objectif-civique/id6793272755",
+    "https://play.google.com/store/apps/details?id=com.horizon224.objectifcivique",
+  ],
+};
+
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -104,6 +120,10 @@ const organizationJsonLd = {
   alternateName: BRAND_ALIASES,
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
+  sameAs: [
+    "https://apps.apple.com/fr/app/objectif-civique/id6793272755",
+    "https://play.google.com/store/apps/details?id=com.horizon224.objectifcivique",
+  ],
   email: "support@demarchesciviques.fr",
   description: DESCRIPTION,
 };
@@ -123,6 +143,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(applicationJsonLd) }}
         />
         <AppBackground />
         {children}

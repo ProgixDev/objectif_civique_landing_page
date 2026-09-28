@@ -25,7 +25,8 @@ export default function Hero() {
         <div className="z-10 animate-fade-up">
           <div className="inline-flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-full px-4 py-1.5 mb-6">
             <span className="text-sm font-bold text-gray-900">
-              L&apos;application n°1 pour réussir votre examen civique
+              Démarches Civiques : l&apos;application n°1 pour réussir votre examen
+              civique
             </span>
           </div>
 
